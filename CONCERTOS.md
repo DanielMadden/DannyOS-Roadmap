@@ -2,6 +2,8 @@
 
 ConcertOS is the first feature in the DannyOS roadmap.
 
+ConcertOS should use MusicOS as the source for artist affinity, genre preference, listening trends, and other approved taste signals.
+
 ## User story
 
 As someone who loves metal, emo, EDM, indie, and indie rock, I want a system that understands my Spotify taste, checks every morning for relevant concerts in Idaho and major shows in Utah, helps me quickly decide which ones I care about, puts them on a dedicated calendar, reminds me to buy tickets, and confirms purchases through Gmail so I do not miss shows or leave tickets sitting on my mental to-do list.
@@ -12,6 +14,7 @@ As someone who loves metal, emo, EDM, indie, and indie rock, I want a system tha
 - [ ] Define the acceptable Utah cities and driving threshold.
 - [ ] Define the “big enough for Utah” rule.
 - [ ] Choose initial concert data sources.
+- [ ] Define which MusicOS taste signals influence concert discovery and ranking.
 - [ ] Decide whether discovery creates a calendar event immediately.
 - [ ] Define the states for discovered, interested, rejected, ticket needed, purchased, attended, canceled, and missed.
 - [ ] Define what Gmail data may be read and what may be stored.

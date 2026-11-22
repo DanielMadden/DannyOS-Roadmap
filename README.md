@@ -59,8 +59,8 @@ See [CalendarOS](CALENDAROS.md) for the initial planning model, operating ceremo
 
 #### Build a taste profile
 
-- Connect Spotify.
-- Track artists already associated with the listener’s Spotify activity.
+- Use the MusicOS taste profile and Spotify integration.
+- Track artists already associated with listening activity.
 - Prioritize metal, emo, EDM, indie, and indie rock.
 - Allow the taste profile to evolve over time instead of relying on a permanent manual list.
 
@@ -117,7 +117,7 @@ See [CalendarOS](CALENDAROS.md) for the initial planning model, operating ceremo
 
 ## Suggested delivery phases
 
-1. **Taste profile** — Spotify connection plus artist and genre signals.
+1. **Taste profile** — MusicOS integration plus artist and genre signals.
 2. **Daily discovery** — Idaho-first search, Utah fallback, and duplicate handling.
 3. **Decision queue** — interested/not interested workflow.
 4. **Concert calendar** — dedicated calendar and event lifecycle.
@@ -125,6 +125,26 @@ See [CalendarOS](CALENDAROS.md) for the initial planning model, operating ceremo
 6. **Gmail verification** — confirmation matching and reminder shutoff.
 7. **Notion command center** — dashboard, history, and cross-feature visibility.
 8. **Mobile experience** — swipe-based review if the earlier workflow proves useful.
+
+### MusicOS
+
+**Goal:** Build a provider-independent music intelligence and playlist-management system that understands listening behavior, lyrical themes, emotional context, and personal life patterns more deeply than a general streaming recommendation engine.
+
+Spotify is the initial integration, but MusicOS should own the personal taste model, tags, playlist structure, and derived insights.
+
+Core capabilities include:
+
+- Aggregate listening history, saved music, artists, albums, genres, playlists, and behavioral signals.
+- Maintain flexible tags for genres, subgenres, moods, emotions, themes, contexts, eras, and personal associations.
+- Track licensed lyrics or lyric references and analyze themes without redistributing copyrighted text.
+- Distinguish directly observed metadata from AI-inferred emotion, meaning, or mood.
+- Organize inconsistent playlist names, folders, duplicates, sparse playlists, and abandoned collections.
+- Provide advanced search, filtering, sorting, and conversational playlist management.
+- Generate highly personalized playlists for activities, energy levels, emotional needs, seasons, events, relationships, and other life contexts.
+- Preserve playlist history and require review before destructive reorganization.
+- Supply the richer taste profile used by ConcertOS.
+
+See [MusicOS](MUSICOS.md) for the initial data model, tagging system, lyric and emotion boundaries, playlist workflows, and delivery sequence.
 
 ### ContactOS
 
