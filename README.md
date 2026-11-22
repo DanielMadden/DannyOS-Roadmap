@@ -24,6 +24,12 @@ DannyOS is intended to operate across a shared platform layer:
 
 These capabilities are shared platform services rather than one-off connections rebuilt separately for every feature. See [Platform Direction](PLATFORM.md) for the initial architecture goals and open decisions.
 
+## Development workflow
+
+DannyOS uses a multi-model development workflow. Codex is the primary implementation environment for architecture, engineering, testing, documentation, and maintenance. Claude is the preferred design partner for UI/UX direction, interaction design, and visual critique. Repository artifacts remain the source of truth between tools.
+
+See [Development Workflow](DEVELOPMENT-WORKFLOW.md) for role boundaries, handoff requirements, and the design-to-implementation process.
+
 ## Feature roadmap
 
 ### ConcertOS
