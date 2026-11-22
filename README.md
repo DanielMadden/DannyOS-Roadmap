@@ -156,6 +156,10 @@ ContactOS is the umbrella system for friends, family, acquaintances, work relati
 
 See [ContactOS](CONTACTOS.md) for the initial product definition and scoring model.
 
+## Historical idea backlog
+
+Earlier Life OS and personal-system documents contain additional product concepts that have not yet been validated or promoted into the active roadmap. These ideas are preserved in [Historical Ideas](HISTORICAL-IDEAS.md) for future review.
+
 ## Status
 
 This roadmap is intentionally early. The desired experience is documented; implementation choices, data sources, privacy boundaries, and exact location rules still need to be defined before feature work begins.
