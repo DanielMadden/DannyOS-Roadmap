@@ -1,12 +1,29 @@
 # MessageOS
 
-MessageOS is the unified communications layer of DannyOS. It is intended to reduce the fragmentation created by separate social and messaging applications while making it easier to understand, prioritize, and complete communication.
+MessageOS is the unified communications layer of DannyOS. Its central purpose is to replace passive doomscrolling with intentional human interaction. It should reduce the fragmentation created by separate social and messaging applications while making it easier to understand, prioritize, and complete communication.
 
 ## Product outcome
 
 Supported conversations from Instagram, Snapchat, Facebook Messenger, Discord, Telegram, and future networks should be accessible through one application. The system should scan approved conversations, summarize relevant context, identify required actions, draft replies, and dispatch approved responses through the original network.
 
 The system should create a communication environment that works with neurodivergent attention, memory, sensory, and executive-function needs rather than increasing cognitive load.
+
+## Human interaction over engagement
+
+MessageOS should separate communication from the engagement-driven feeds surrounding it. Accessing a person or conversation should not require navigating an infinite feed, algorithmic recommendations, short-form video, trending content, or other attention-capture mechanisms.
+
+The system should:
+
+- Open directly into people, conversations, and intentional communication tasks.
+- Avoid infinite scrolling, autoplay, streaks, engagement counters, and variable-reward interfaces.
+- Make it easy to start a conversation with an existing contact instead of opening a social feed.
+- Surface appropriate opportunities to reconnect through ContactOS without manufacturing urgency or guilt.
+- Support focused communication sessions with a clear beginning and completed state.
+- Allow social applications and feeds to remain closed while messages are reviewed and answered.
+- Provide optional boundaries for feed access, notification frequency, and communication-session duration.
+- Measure success through meaningful replies, completed follow-ups, maintained relationships, and reduced feed consumption—not total time spent in MessageOS.
+
+MessageOS should support intentional solitude and should not pressure users to communicate constantly. The objective is to make chosen human interaction easier than compulsive content consumption.
 
 ## Unified inbox
 

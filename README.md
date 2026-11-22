@@ -218,13 +218,14 @@ See [ContactOS](CONTACTOS.md) for the initial product definition and scoring mod
 
 ### MessageOS
 
-**Goal:** Consolidate supported messaging networks into one low-friction inbox that can scan, summarize, prioritize, draft, and dispatch replies while preserving user control.
+**Goal:** Replace passive doomscrolling with intentional human interaction by consolidating supported messaging networks into one low-friction communication workspace.
 
 MessageOS is intended to support Instagram, Snapchat, Facebook Messenger, Discord, Telegram, and additional messaging services where official platform capabilities permit reliable integration.
 
 Core capabilities include:
 
 - One inbox across connected messaging networks.
+- Direct access to people and conversations without engagement-driven social feeds.
 - Cross-network search and conversation history.
 - AI-generated summaries and action extraction.
 - Prioritization based on urgency, relationship, commitment, and recency.
@@ -233,6 +234,7 @@ Core capabilities include:
 - Dispatch back through the original network from one application.
 - ADHD-, OCD-, and autism-informed presentation and interaction design.
 - Clear handling of unavailable, limited, or read-only platform integrations.
+- Success measures based on meaningful communication and reduced feed consumption rather than time spent in the application.
 
 See [MessageOS](MESSAGEOS.md) for the initial product definition, safety model, and accessibility requirements.
 
