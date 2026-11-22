@@ -1,6 +1,6 @@
-# MessagingOS
+# MessageOS
 
-MessagingOS is the unified communications layer of DannyOS. It is intended to reduce the fragmentation created by separate social and messaging applications while making it easier to understand, prioritize, and complete communication.
+MessageOS is the unified communications layer of DannyOS. It is intended to reduce the fragmentation created by separate social and messaging applications while making it easier to understand, prioritize, and complete communication.
 
 ## Product outcome
 
@@ -29,7 +29,7 @@ The system should create a communication environment that works with neurodiverg
 
 ## Prioritization
 
-MessagingOS should prioritize messages using transparent signals such as:
+MessageOS should prioritize messages using transparent signals such as:
 
 - Explicit deadlines or dates
 - Direct questions
@@ -57,7 +57,7 @@ Future narrowly scoped automations may support preapproved low-risk responses, b
 
 ## Neurodivergent interaction design
 
-MessagingOS should be designed for users with ADHD, OCD, autism, and overlapping needs.
+MessageOS should be designed for users with ADHD, OCD, autism, and overlapping needs.
 
 ### Reduce attention fragmentation
 
@@ -104,7 +104,7 @@ Each connector should document:
 - Rate limits, review requirements, and data-retention rules.
 - Whether the connector is full access, limited access, notification-assisted, or read-only.
 
-MessagingOS should not bypass platform security, impersonate unsupported clients, or depend on fragile automation that violates provider terms. Unsupported networks should degrade honestly rather than appear fully synchronized.
+MessageOS should not bypass platform security, impersonate unsupported clients, or depend on fragile automation that violates provider terms. Unsupported networks should degrade honestly rather than appear fully synchronized.
 
 ## Privacy and security
 
@@ -150,4 +150,4 @@ The implementation should:
 - What defines inbox completion?
 - Which messages may create proposed tasks or calendar events?
 - Which reply types, if any, may eventually be preapproved for automatic dispatch?
-- How should MessagingOS behave when a provider is unavailable, delayed, or only partially synchronized?
+- How should MessageOS behave when a provider is unavailable, delayed, or only partially synchronized?

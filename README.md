@@ -172,11 +172,11 @@ ContactOS is the umbrella system for friends, family, acquaintances, work relati
 
 See [ContactOS](CONTACTOS.md) for the initial product definition and scoring model.
 
-### MessagingOS
+### MessageOS
 
 **Goal:** Consolidate supported messaging networks into one low-friction inbox that can scan, summarize, prioritize, draft, and dispatch replies while preserving user control.
 
-MessagingOS is intended to support Instagram, Snapchat, Facebook Messenger, Discord, Telegram, and additional messaging services where official platform capabilities permit reliable integration.
+MessageOS is intended to support Instagram, Snapchat, Facebook Messenger, Discord, Telegram, and additional messaging services where official platform capabilities permit reliable integration.
 
 Core capabilities include:
 
@@ -190,7 +190,7 @@ Core capabilities include:
 - ADHD-, OCD-, and autism-informed presentation and interaction design.
 - Clear handling of unavailable, limited, or read-only platform integrations.
 
-See [MessagingOS](MESSAGINGOS.md) for the initial product definition, safety model, and accessibility requirements.
+See [MessageOS](MESSAGEOS.md) for the initial product definition, safety model, and accessibility requirements.
 
 ## Historical idea backlog
 
