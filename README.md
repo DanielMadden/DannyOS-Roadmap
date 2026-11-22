@@ -18,8 +18,9 @@ DannyOS is intended to operate across a shared platform layer:
 - **Self-hosted storage** — the long-term system of record for files, photographs, exports, and application data
 - **Local AI** — locally hosted language models for private or routine workloads that do not require paid model APIs
 - **DannyOS dashboard** — the unified interface for status, history, predictions, recommendations, and approved controls
+- **CalendarOS** — the planning and allocation layer for time, tasks, routines, commitments, recovery, and reflection
 - **Notion** — an integrated knowledge and planning layer rather than the sole system of record
-- **Google Calendar** — the source of truth for time, plans, and reminders
+- **Google Calendar** — the initial external calendar provider and synchronization target
 - **Gmail** — the source for confirmations, receipts, and follow-up signals
 
 These capabilities are shared platform services rather than one-off connections rebuilt separately for every feature. See [Platform Direction](PLATFORM.md) for the initial architecture goals and open decisions.
@@ -31,6 +32,26 @@ DannyOS uses a multi-model development workflow. Codex is the primary implementa
 See [Development Workflow](DEVELOPMENT-WORKFLOW.md) for role boundaries, handoff requirements, and the design-to-implementation process.
 
 ## Feature roadmap
+
+### CalendarOS
+
+**Goal:** Allocate time intentionally across commitments, tasks, relationships, health, maintenance, relaxation, and recovery while allowing the schedule to adapt when reality changes.
+
+CalendarOS should give every hour an explicit purpose without treating every hour as work. The AI-assisted planner should coordinate tasks, deadlines, routines, energy, travel, personal priorities, and protected downtime.
+
+Core capabilities include:
+
+- Daily schedules developed collaboratively with AI.
+- Weekly planning based on priorities, commitments, and realistic capacity.
+- Sprint planning, sprint review, and daily scrum integration.
+- Time-blocking for tasks, projects, routines, errands, relationships, health, hobbies, relaxation, and unstructured recovery.
+- Dynamic rescheduling when tasks take longer, plans change, or energy is lower than expected.
+- Clear separation between planned time, actual time, and completed outcomes.
+- Buffers, transitions, breaks, and unscheduled capacity.
+- Explanations and approval before consequential calendar changes.
+- ADHD-, OCD-, and autism-informed scheduling that avoids shame, brittle plans, and over-optimization.
+
+See [CalendarOS](CALENDAROS.md) for the initial planning model, operating ceremonies, scheduling rules, and delivery sequence.
 
 ### ConcertOS
 
