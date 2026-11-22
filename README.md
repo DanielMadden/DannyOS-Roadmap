@@ -128,9 +128,11 @@ ContactOS is the umbrella system for friends, family, acquaintances, work relati
 
 #### Track how interactions actually feel
 
-- Allow each hangout or meaningful interaction to receive a score from 1–10.
+- Allow any meaningful interaction to receive a score from 1–10.
+- Support interaction types including text conversations, dates, hangouts, phone calls, video calls, and other significant contact.
 - Preserve an optional note explaining the score.
 - Calculate an all-time average plus rolling 1-month, 3-month, and 6-month scores.
+- Compare overall scores with scores for each interaction type.
 - Show whether a relationship is improving, declining, or simply changing.
 - Counteract unreliable memory about the quality and value of past interactions.
 
@@ -191,6 +193,26 @@ Core capabilities include:
 - Clear handling of unavailable, limited, or read-only platform integrations.
 
 See [MessageOS](MESSAGEOS.md) for the initial product definition, safety model, and accessibility requirements.
+
+### DatingOS
+
+**Goal:** Reduce the time and cognitive load required to review dating candidates while concentrating attention on the most compatible and promising connections.
+
+DatingOS is intended to aggregate supported candidates and conversations from Tinder, Facebook Dating, Hinge, and future dating services. It should apply an explainable compatibility model, organize review queues, assist with messages, and preserve dating interactions in ContactOS.
+
+Core capabilities include:
+
+- One candidate queue across supported dating platforms.
+- Compatibility scoring based on user-defined preferences, values, interests, lifestyle, relationship goals, and practical constraints.
+- Explanations for each score and recommendation.
+- High-confidence review queues that reduce repetitive profile screening.
+- Conversation summaries and context-aware message drafting through MessageOS.
+- Approval-based dispatch and clear attribution of every action to its destination platform.
+- Conversion of relevant matches into ContactOS records without creating duplicates.
+- Interaction scoring for texts, calls, video calls, dates, and other meaningful contact.
+- ADHD-, OCD-, and autism-informed review flows that minimize swiping fatigue, uncertainty, and context switching.
+
+See [DatingOS](DATINGOS.md) for the initial product definition, scoring boundaries, integration model, and delivery sequence.
 
 ## Historical idea backlog
 

@@ -25,7 +25,17 @@ The model should keep its components separate. A single total can be useful for 
 
 ### 1. Interaction score
 
-After a hangout or meaningful interaction, I can give the experience a score from 1–10 and optionally record why.
+Any meaningful interaction can receive a score from 1–10 with an optional explanation. Supported interaction types should include:
+
+- Text conversation
+- Date
+- Hangout
+- Phone call
+- Video call or FaceTime
+- Group activity
+- Other significant contact
+
+Each interaction should record its type, date, participants, duration when useful, relevant activity or context, score, and optional notes.
 
 The system calculates:
 
@@ -35,8 +45,9 @@ The system calculates:
 - Rolling 180-day average
 - Recent trend
 - Number of scored interactions in each window
+- Average and trend by interaction type
 
-The number of interactions matters. A 10 based on one hangout should not look as certain as a 9 based on twenty hangouts.
+The number and type of interactions matter. A 10 based on one text exchange should not appear as certain or comprehensive as a 9 based on twenty interactions across multiple settings.
 
 ### 2. Commonality score
 
@@ -80,6 +91,7 @@ A future recommendation model may consider:
 - Pressure or boundary signals
 - Upcoming birthday or important event
 - Existing plans already on the calendar
+- Differences between text, call, date, and in-person interaction scores
 
 The output should be an explainable suggestion such as:
 
@@ -128,6 +140,8 @@ Access should be encrypted, permissioned, exportable, and deletable. Integration
 - [ ] Confirm whether ContactOS remains the umbrella with FriendOS inside it.
 - [ ] Define relationship types and whether one person can have more than one.
 - [ ] Define the interaction types that can receive scores.
+- [ ] Define which interaction fields are required for each type.
+- [ ] Decide whether different interaction types receive different weights.
 - [ ] Decide how the overall score is calculated—or whether sorting by separate scores is better.
 - [ ] Define how much recent interactions outweigh older ones.
 - [ ] Define confidence rules for people with very few scored interactions.

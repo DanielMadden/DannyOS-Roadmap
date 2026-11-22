@@ -124,6 +124,7 @@ The implementation should:
 ## Connections to other DannyOS modules
 
 - **ContactOS:** resolve identities, relationship context, birthdays, boundaries, and desired contact frequency.
+- **DatingOS:** preserve dating-platform conversations, generate approved drafts, dispatch supported replies, and transfer established matches into ContactOS.
 - **Calendar:** propose events and reminders from confirmed plans or commitments.
 - **Task system:** convert approved commitments and follow-ups into actionable work.
 - **Memory system:** preserve approved summaries and decisions without retaining unnecessary message content.
