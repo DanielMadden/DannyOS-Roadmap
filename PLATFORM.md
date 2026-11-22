@@ -2,6 +2,8 @@
 
 DannyOS is intended to become a unified, AI-assisted control layer for personal information, planning, communication, automation, and decision support. The platform should track relevant state, preserve history, identify patterns, produce explainable predictions, and provide controlled ways to take action.
 
+The platform is specifically intended to reduce the executive-function, attention, memory, sensory, and context-switching burdens experienced by neurodivergent users, including people with ADHD, OCD, and autism.
+
 This document defines the desired platform direction. It does not commit the roadmap to a specific device, hosting provider, model, or application framework.
 
 ## Android-first mobile strategy
@@ -112,6 +114,7 @@ Each integration should define:
 - **Explainable:** expose sources, reasoning, model identity, and action history.
 - **Resilient:** design for device loss, network loss, service failure, and restoration from backup.
 - **Private by default:** keep personal data out of the public roadmap and minimize access granted to each component.
+- **Neurodivergent by design:** reduce cognitive load, preserve context, support recovery, and make system state explicit and predictable.
 
 ## Initial delivery sequence
 

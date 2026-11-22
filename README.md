@@ -4,6 +4,12 @@ DannyOS is a connected personal operating system designed to support discovery, 
 
 This repository contains the public product roadmap. It documents intended outcomes first and adds technical detail as each feature reaches implementation readiness.
 
+## Design mandate
+
+DannyOS is intended to improve quality of life for neurodivergent users, including people with ADHD, OCD, and autism. The system should reduce fragmentation, memory burden, decision fatigue, context switching, notification overload, and the effort required to begin or complete routine actions.
+
+The product should adapt to the user rather than require the user to conform to conventional productivity systems. Calm presentation, predictable behavior, explicit state, reversible actions, adjustable stimulation, and low-friction recovery are foundational requirements rather than optional accessibility features.
+
 ## Core platform
 
 DannyOS is intended to operate across a shared platform layer:
@@ -159,6 +165,26 @@ ContactOS is the umbrella system for friends, family, acquaintances, work relati
 - Use Gmail only for explicitly approved signals and never expose private correspondence in the public roadmap.
 
 See [ContactOS](CONTACTOS.md) for the initial product definition and scoring model.
+
+### MessagingOS
+
+**Goal:** Consolidate supported messaging networks into one low-friction inbox that can scan, summarize, prioritize, draft, and dispatch replies while preserving user control.
+
+MessagingOS is intended to support Instagram, Snapchat, Facebook Messenger, Discord, Telegram, and additional messaging services where official platform capabilities permit reliable integration.
+
+Core capabilities include:
+
+- One inbox across connected messaging networks.
+- Cross-network search and conversation history.
+- AI-generated summaries and action extraction.
+- Prioritization based on urgency, relationship, commitment, and recency.
+- Reply drafting that preserves conversation context and user intent.
+- Explicit approval before messages are dispatched by default.
+- Dispatch back through the original network from one application.
+- ADHD-, OCD-, and autism-informed presentation and interaction design.
+- Clear handling of unavailable, limited, or read-only platform integrations.
+
+See [MessagingOS](MESSAGINGOS.md) for the initial product definition, safety model, and accessibility requirements.
 
 ## Historical idea backlog
 

@@ -121,7 +121,7 @@ The public repository must never contain:
 - Inferences presented as facts about another person
 - Authentication credentials or provider tokens
 
-Access should be encrypted, permissioned, exportable, and deletable. Integrations should use the minimum data necessary, and any automated message or consequential action should require my approval.
+Access should be encrypted, permissioned, exportable, and deletable. Integrations should use the minimum data necessary, and any automated message or consequential action should require user approval.
 
 ## Definition-readiness checklist
 
