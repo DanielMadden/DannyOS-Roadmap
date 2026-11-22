@@ -1,8 +1,8 @@
 # DannyOS — Roadmap
 
-DannyOS is the operating system for my life: one connected system that helps me discover what matters, decide what I want to do, and actually follow through.
+DannyOS is a connected personal operating system designed to support discovery, decision-making, planning, and follow-through across major areas of life.
 
-This repository is the public roadmap. It starts with the outcomes I want and will get more technical as each feature becomes ready to build.
+This repository contains the public product roadmap. It documents intended outcomes first and adds technical detail as each feature reaches implementation readiness.
 
 ## Core platform
 
@@ -18,14 +18,14 @@ These are shared platform integrations, not one-off connections rebuilt separate
 
 ### ConcertOS
 
-**Goal:** Make it nearly impossible for me to miss a concert I would love—or forget to buy the ticket after deciding I want to go.
+**Goal:** Reduce missed concert opportunities and ensure that ticket purchases receive timely follow-through after interest is confirmed.
 
-#### Discover my taste
+#### Build a taste profile
 
 - Connect Spotify.
-- Track artists I already like.
-- Track the genres I care about most: metal, emo, EDM, indie, and indie rock.
-- Let my taste change over time instead of relying on a permanent manual list.
+- Track artists already associated with the listener’s Spotify activity.
+- Prioritize metal, emo, EDM, indie, and indie rock.
+- Allow the taste profile to evolve over time instead of relying on a permanent manual list.
 
 #### Find concerts every morning
 
@@ -37,7 +37,7 @@ These are shared platform integrations, not one-off connections rebuilt separate
 #### Build a concert decision queue
 
 - Put new discoveries into a simple review list.
-- Let me mark each concert as interested or not interested.
+- Allow each concert to be marked as interested or not interested.
 - Explore a Tinder-style swipe experience for quick decisions.
 - Consider a dedicated phone app if that is the best interface.
 
@@ -45,13 +45,13 @@ These are shared platform integrations, not one-off connections rebuilt separate
 
 - Create and maintain a dedicated concerts calendar.
 - Add discovered concerts with artist, venue, city, date, source, and ticket link.
-- Clearly distinguish possibilities from concerts I am committed to attending.
+- Clearly distinguish potential concerts from confirmed attendance plans.
 - Keep events updated if the date, venue, or status changes.
 
-#### Help me buy the ticket
+#### Support ticket purchasing
 
-- Show me the concerts that still need a decision or ticket purchase.
-- If I say I am interested, remind me to buy tickets.
+- Surface concerts that still require a decision or ticket purchase.
+- Generate ticket-purchase reminders after interest is confirmed.
 - Track presales, on-sale dates, deadlines, and price information when available.
 - Stop purchase reminders after a ticket is confirmed.
 
@@ -70,11 +70,11 @@ These are shared platform integrations, not one-off connections rebuilt separate
 
 ## Open product decisions
 
-- What exactly counts as “my area” in Idaho?
+- What geographic area should qualify as local within Idaho?
 - Which Utah cities are in range?
 - What makes a Utah show “big enough” to surface?
 - Which concert sources give the best coverage without overwhelming the system?
-- Should discovered concerts go directly onto the calendar or wait until I mark them interested?
+- Should discovered concerts be added to the calendar immediately or only after interest is confirmed?
 - Is the first review experience a Notion view, a lightweight web app, or a native phone app?
 - How should the system handle festivals, multi-day events, and multiple tour dates?
 
@@ -91,9 +91,9 @@ These are shared platform integrations, not one-off connections rebuilt separate
 
 ### ContactOS
 
-**Goal:** Give me one private, unified view of every meaningful person I have interacted with—and help me invest in the relationships that actually make my life better.
+**Goal:** Provide one private, unified view of meaningful personal and professional relationships and support more intentional relationship maintenance.
 
-ContactOS is the umbrella. It includes friends, family, acquaintances, work relationships, and other people in my life. **FriendOS** is the part focused specifically on maintaining friendships.
+ContactOS is the umbrella system for friends, family, acquaintances, work relationships, and other meaningful contacts. **FriendOS** is the component focused specifically on friendship maintenance.
 
 #### Build one unified people directory
 
@@ -103,50 +103,50 @@ ContactOS is the umbrella. It includes friends, family, acquaintances, work rela
 - Track the city or area someone is in without putting private location data in the public roadmap.
 - Merge duplicate records without losing history.
 
-#### Help me maintain friendships
+#### Support friendship maintenance
 
-- Remind me when it has been too long since I reached out or spent time with someone.
-- Adjust the suggested contact frequency based on the relationship and my actual experience with that person.
-- Remind me about birthdays early enough to do something thoughtful—not just send a last-minute message.
+- Identify relationships where too much time has passed since the last interaction.
+- Adjust suggested contact frequency based on relationship context and recorded interaction quality.
+- Provide birthday reminders early enough to support thoughtful planning rather than only last-minute messages.
 - Keep a history of hangouts, calls, messages, and meaningful interactions.
 
 #### Track how interactions actually feel
 
-- Let me score each hangout or meaningful interaction from 1–10.
-- Preserve a note explaining the score when I want one.
+- Allow each hangout or meaningful interaction to receive a score from 1–10.
+- Preserve an optional note explaining the score.
 - Calculate an all-time average plus rolling 1-month, 3-month, and 6-month scores.
 - Show whether a relationship is improving, declining, or simply changing.
-- Help correct for the fact that I sometimes forget how much I enjoy spending time with someone.
+- Counteract unreliable memory about the quality and value of past interactions.
 
 #### Calculate commonality
 
 - Maintain a personal library of interest and compatibility tags.
-- Give each tag a weight based on how important that quality is to me.
-- Add points when someone shares interests or qualities I value.
-- Subtract points for negative compatibility tags, such as behaviors or traits I find draining.
+- Give each tag a weight based on its personal importance.
+- Add points for shared interests and valued qualities.
+- Subtract points for negative compatibility tags, such as behaviors or traits experienced as draining.
 - Support practical factors such as heavy drinking, smoking, or vaping.
-- Keep these labels private, editable, and grounded in my own experience—not presented as objective judgments about a person.
+- Keep these labels private, editable, and framed as subjective observations rather than objective judgments about another person.
 
-#### Track my personal relationship assessment
+#### Track personal relationship assessments
 
-- Let me give someone a direct personal score from 1–10.
-- Let me explain why I chose that score.
-- Allow me to update it whenever my view changes.
-- Keep a private score history so I can see how the relationship has evolved.
+- Allow each person to receive a direct personal score from 1–10.
+- Preserve an explanation for the selected score.
+- Allow the score to be updated as the relationship changes.
+- Keep a private score history that shows how the relationship has evolved.
 
 #### Recognize pressure and imbalance
 
-- Track relationship dynamics that create pressure, including feeling like I am someone’s only friend or primary support system.
+- Track relationship dynamics that create pressure, including situations where one person appears to be another person’s only friend or primary support system.
 - Let those dynamics influence suggested boundaries and contact frequency.
 - Surface relationships that feel one-sided, demanding, or consistently negative.
 - Support decisions ranging from reaching out more often to keeping distance or intentionally ending contact.
 
-#### Make recommendations without making the decision for me
+#### Provide recommendations without automating consequential decisions
 
 - Combine recency, interaction quality, commonality, personal assessment, relationship type, and pressure factors.
-- Recommend who I may want to contact, see more often, see less often, or reassess.
+- Recommend contacts who may warrant outreach, more frequent interaction, less frequent interaction, or reassessment.
 - Explain which signals caused a recommendation.
-- Never automatically message someone, cut ties, or make a consequential relationship decision for me.
+- Never automatically message someone, end a relationship, or make another consequential relationship decision.
 
 #### Sync with DannyOS
 
