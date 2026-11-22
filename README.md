@@ -142,6 +142,7 @@ Core capabilities include:
 - Provide advanced search, filtering, sorting, and conversational playlist management.
 - Generate highly personalized playlists for activities, energy levels, emotional needs, seasons, events, relationships, and other life contexts.
 - Preserve playlist history and require review before destructive reorganization.
+- Treat a self-hosted library of lawfully obtained music files and personal streaming as a later stretch goal.
 - Supply the richer taste profile used by ConcertOS.
 
 See [MusicOS](MUSICOS.md) for the initial data model, tagging system, lyric and emotion boundaries, playlist workflows, and delivery sequence.

@@ -232,6 +232,27 @@ Each connector should document:
 
 Unsupported capabilities should be represented honestly rather than filled with unverified assumptions.
 
+## Stretch goal: self-hosted music library
+
+MusicOS may eventually maintain and stream a personal library of lawfully obtained audio files, including MP3, FLAC, AAC, and other supported formats. This capability is intentionally outside the initial Spotify-focused release.
+
+Potential capabilities include:
+
+- Import personally owned or properly licensed audio files.
+- Preserve original files and embedded metadata.
+- Organize artists, albums, tracks, artwork, genres, and custom tags.
+- Detect duplicates and alternate versions.
+- Stream securely to Android, desktop, and web clients.
+- Transcode audio when a client or network requires a different format or bitrate.
+- Support optional offline synchronization to approved devices.
+- Preserve playlists independently of any streaming provider.
+- Combine self-hosted and provider-linked tracks in the MusicOS catalog while clearly identifying availability.
+- Back up the library and regularly verify restoration.
+
+MusicOS should not bypass digital-rights management, copy protected streams, or treat access through a subscription service as ownership of the underlying audio file. Import provenance and usage rights should be retained when available.
+
+Self-hosted streaming should use authenticated, encrypted access and should not expose the library as a public file server. The design should account for storage capacity, upload bandwidth, mobile data use, transcoding resources, metadata quality, and recovery after host failure.
+
 ## Initial delivery sequence
 
 1. **Spotify inventory** — import accessible artists, tracks, playlists, folders, and source identifiers.
@@ -244,6 +265,7 @@ Unsupported capabilities should be represented honestly rather than filled with 
 8. **Lyrics and emotion analysis** — connect compliant lyric sources and add editable derived metadata.
 9. **ConcertOS integration** — use the richer taste model for event discovery and ranking.
 10. **Accessibility validation** — test organization and discovery workflows for cognitive load, choice overload, and recovery after interruption.
+11. **Self-hosted library pilot** — import a small lawful audio collection and validate metadata, streaming, offline sync, backup, and restoration.
 
 ## Open product decisions
 
@@ -257,3 +279,4 @@ Unsupported capabilities should be represented honestly rather than filled with 
 - How should MusicOS distinguish temporary listening patterns from durable preference changes?
 - Which DannyOS contexts may influence playlist generation?
 - What data should remain local rather than be processed by hosted models?
+- Which audio formats, clients, storage targets, and streaming protocols should support the self-hosted library?
