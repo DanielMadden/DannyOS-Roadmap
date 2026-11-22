@@ -6,13 +6,17 @@ This repository contains the public product roadmap. It documents intended outco
 
 ## Core platform
 
-Every DannyOS feature should be able to connect with:
+DannyOS is intended to operate across a shared platform layer:
 
-- **Notion** — the long-term home for information, decisions, and dashboards
+- **Android** — the primary mobile control surface, selected for deeper operating-system integration and automation capabilities
+- **Self-hosted storage** — the long-term system of record for files, photographs, exports, and application data
+- **Local AI** — locally hosted language models for private or routine workloads that do not require paid model APIs
+- **DannyOS dashboard** — the unified interface for status, history, predictions, recommendations, and approved controls
+- **Notion** — an integrated knowledge and planning layer rather than the sole system of record
 - **Google Calendar** — the source of truth for time, plans, and reminders
 - **Gmail** — the source for confirmations, receipts, and follow-up signals
 
-These are shared platform integrations, not one-off connections rebuilt separately for every feature.
+These capabilities are shared platform services rather than one-off connections rebuilt separately for every feature. See [Platform Direction](PLATFORM.md) for the initial architecture goals and open decisions.
 
 ## Feature roadmap
 
