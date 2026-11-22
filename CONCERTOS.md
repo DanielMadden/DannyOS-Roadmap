@@ -1,6 +1,6 @@
-# Concert OS
+# ConcertOS
 
-Concert OS is the first feature in the Danny OS roadmap.
+ConcertOS is the first feature in the DannyOS roadmap.
 
 ## User story
 

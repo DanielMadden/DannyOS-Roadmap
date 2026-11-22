@@ -1,12 +1,12 @@
-# Danny OS — Roadmap
+# DannyOS — Roadmap
 
-Danny OS is the operating system for my life: one connected system that helps me discover what matters, decide what I want to do, and actually follow through.
+DannyOS is the operating system for my life: one connected system that helps me discover what matters, decide what I want to do, and actually follow through.
 
 This repository is the public roadmap. It starts with the outcomes I want and will get more technical as each feature becomes ready to build.
 
 ## Core platform
 
-Every Danny OS feature should be able to connect with:
+Every DannyOS feature should be able to connect with:
 
 - **Notion** — the long-term home for information, decisions, and dashboards
 - **Google Calendar** — the source of truth for time, plans, and reminders
@@ -16,7 +16,7 @@ These are shared platform integrations, not one-off connections rebuilt separate
 
 ## Feature roadmap
 
-### Concert OS
+### ConcertOS
 
 **Goal:** Make it nearly impossible for me to miss a concert I would love—or forget to buy the ticket after deciding I want to go.
 
@@ -89,11 +89,11 @@ These are shared platform integrations, not one-off connections rebuilt separate
 7. **Notion command center** — dashboard, history, and cross-feature visibility.
 8. **Mobile experience** — swipe-based review if the earlier workflow proves useful.
 
-### Contact OS
+### ContactOS
 
 **Goal:** Give me one private, unified view of every meaningful person I have interacted with—and help me invest in the relationships that actually make my life better.
 
-Contact OS is the umbrella. It includes friends, family, acquaintances, work relationships, and other people in my life. **Friend OS** is the part focused specifically on maintaining friendships.
+ContactOS is the umbrella. It includes friends, family, acquaintances, work relationships, and other people in my life. **FriendOS** is the part focused specifically on maintaining friendships.
 
 #### Build one unified people directory
 
@@ -148,13 +148,13 @@ Contact OS is the umbrella. It includes friends, family, acquaintances, work rel
 - Explain which signals caused a recommendation.
 - Never automatically message someone, cut ties, or make a consequential relationship decision for me.
 
-#### Sync with Danny OS
+#### Sync with DannyOS
 
 - Use Notion as the private relationship dashboard and knowledge layer.
 - Use Calendar for birthdays, planned hangouts, and appropriate reminders.
 - Use Gmail only for explicitly approved signals and never expose private correspondence in the public roadmap.
 
-See [Contact OS](CONTACT-OS.md) for the initial product definition and scoring model.
+See [ContactOS](CONTACTOS.md) for the initial product definition and scoring model.
 
 ## Status
 

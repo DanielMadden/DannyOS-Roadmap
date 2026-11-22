@@ -1,12 +1,12 @@
-# Contact OS
+# ContactOS
 
-Contact OS is the people layer of Danny OS. Friend OS lives inside it.
+ContactOS is the people layer of DannyOS. FriendOS lives inside it.
 
 ## Intent
 
 I am not naturally good at maintaining friendships. I forget to reach out, and I sometimes forget how much I enjoy spending time with someone. I can also keep spending time with people I do not enjoy simply because the pattern already exists.
 
-Contact OS should give me better memory and better signals. It should help me decide where to invest my time without pretending that a score can define a human being or make the decision for me.
+ContactOS should give me better memory and better signals. It should help me decide where to invest my time without pretending that a score can define a human being or make the decision for me.
 
 ## People in scope
 
@@ -102,13 +102,13 @@ No single low score should automatically produce a major recommendation. Recent 
 
 ## Unified contacts
 
-Contact OS should eventually become the private source of truth across iOS, Android, and Windows while syncing safely with the platforms I use.
+ContactOS should eventually become the private source of truth across iOS, Android, and Windows while syncing safely with the platforms I use.
 
 The first version should focus on importing, matching, and deduplicating contacts rather than immediately replacing native contact systems. It should preserve source identifiers so sync can be reversible and auditable.
 
 ## Privacy and safety boundary
 
-Contact OS contains sensitive information about real people. The application data must be private even if this roadmap is public.
+ContactOS contains sensitive information about real people. The application data must be private even if this roadmap is public.
 
 The public repository must never contain:
 
@@ -125,7 +125,7 @@ Access should be encrypted, permissioned, exportable, and deletable. Integration
 
 ## Definition-readiness checklist
 
-- [ ] Decide whether the permanent name is Contact OS, Friend OS, or Contact OS with Friend OS inside it.
+- [ ] Confirm whether ContactOS remains the umbrella with FriendOS inside it.
 - [ ] Define relationship types and whether one person can have more than one.
 - [ ] Define the interaction types that can receive scores.
 - [ ] Decide how the overall score is calculated—or whether sorting by separate scores is better.
