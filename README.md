@@ -147,6 +147,26 @@ Core capabilities include:
 
 See [MusicOS](MUSICOS.md) for the initial data model, tagging system, lyric and emotion boundaries, playlist workflows, and delivery sequence.
 
+### MediaOS
+
+**Goal:** Maintain one unified record of movies, television, anime, and other watched video media, with consistent ratings, reviews, progress, lists, and personalized discovery.
+
+MediaOS is the visual-media tracking module of DannyOS. MusicOS remains the separate audio and music-intelligence module. Letterboxd and AniList are the initial external integrations.
+
+Core capabilities include:
+
+- Unified catalog and viewing history across movies, television, anime, documentaries, specials, and short-form works.
+- Watch status, episode and season progress, completion dates, rewatches, and abandonment history.
+- Flexible personal scores and ratings with provider-scale normalization.
+- Written reviews, private notes, spoiler controls, and review history.
+- Tags for genres, themes, emotions, tone, context, people, and personal associations.
+- Unified watchlists and custom lists without losing their provider sources.
+- Personalized recommendations based on explicit preferences, ratings, reviews, completion behavior, and broader DannyOS context.
+- Bidirectional synchronization where provider capabilities permit, with clear conflict handling.
+- ADHD-, OCD-, and autism-informed queues that reduce choice overload and make progress explicit.
+
+See [MediaOS](MEDIAOS.md) for the initial data model, scoring system, review workflow, provider integration, and delivery sequence.
+
 ### ContactOS
 
 **Goal:** Provide one private, unified view of meaningful personal and professional relationships and support more intentional relationship maintenance.
